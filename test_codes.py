@@ -116,7 +116,6 @@ while True:
             print("Please enter a whole number.")
             continue
 
-
         if guess > 100:
             print("Bruh, I said 1 to 100")
             continue
