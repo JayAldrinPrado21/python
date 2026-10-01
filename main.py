@@ -1,14 +1,15 @@
 def add(a, b):
     return float(a) + float(b)
 
+
 def multiply(a, b):
     return float(a) * float(b)
+
 
 def divide(a, b):
     if float(b) == 0 or float(a) == 0:
         return "Error: Division by zero is not allowed."
     return float(a) / float(b)
-
 
 
 while True:
@@ -38,11 +39,3 @@ while True:
         break
     else:
         print("Invalid operation selected.")
-
-
-
-
-
-
-
-
